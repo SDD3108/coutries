@@ -1,0 +1,24 @@
+body{
+    background-color: bisque;
+}
+.countries {
+    width: 100%;    
+    display: grid;
+    grid-template-columns: repeat(3,500px);
+    grid-template-rows: 600px,600px,600px;
+    gap: 50px;
+
+}
+.block {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+}
+img{
+    width: 500px;
+    border-radius: 15px 15px 0 0;
+}
